@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background: rgb(27 27 27);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image {
+    background: aqua;
+    height: 150px;
+    margin: 10px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.car-1 {
+    background-image: url(gmc-gac292b646_1920.jpg);
+
+}
+
+.car-2 {
+    background-image: url(vehicle-.jpg);
+}
+
+.car-3 {
+    background-image: url(range-rover-ga3ea3bfb4_1920.jpg);
+}
+
+.car-h2 {
+    padding: 10px;
+}
+
+.car-p {
+    padding: 10px;
+}
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: rgb(146, 24, 24);
+    color: white;
+    transform: scale(1.03);
+    cursor: default;
+    transition: all 1s ease;
+}
+
+.main-infos {
+    display: flow-root;
+    font-size: 15px;
+    justify-content: center;
+    top: 10px;
+    text-align: center;
+
+}
+
+.grey {
+    top: 10px;
+    text-align: center;
+
+}
